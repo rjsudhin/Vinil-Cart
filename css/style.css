@@ -14,18 +14,20 @@ body {
 
 #header {
    width: 100%;
-   background-color: rgb(75, 180, 75);
+   background: linear-gradient(90deg, rgb(93, 189, 93), rgb(121, 111, 67), rgb(43, 158, 91));
    color: #fff;
    height: 100vh;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
 }
 
 
 /* header nav section */
 #header-nav {
    width: 100%;
-   height: 80px;
+   height: 15%;
    background-color: transparent;
-   border: 1px solid #fff;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -34,12 +36,14 @@ body {
 
 #heading-sec {
    display: flex;
-   justify-content: center;
+   justify-content: flex-start;
+   padding-left: 3em;
 }
 
 #heading-title {
-   font-weight: 500;
-   /* text-transform: uppercase; */
+   font-weight: 400;
+   text-transform: uppercase;
+   font-size: 21px;
 }
 
 
@@ -47,7 +51,6 @@ body {
    width: 100%;
    display: flex;
    flex-grow: 1;
-   border: 1px solid #fff;
 }
 
 .nav-links {
@@ -55,24 +58,76 @@ body {
    height: 100%;
    display: flex;
    align-items: center;
-   justify-content: space-evenly;
+   justify-content: space-between;
 }
 
 .nav-links li {
    list-style: none;
-   font-size: 16px;
-   font-weight: 500;
+   font-size: 15px;
+   font-weight: 100;
+   opacity: 70%;
 }
 
 .account-info {
    display: flex;
    justify-content: flex-end;
    align-items: center;
-   padding-right: 1em;
-   font-size: 17px;
-   font-weight: bold;
+   font-size: 15px;
+   font-weight: 100;
+   opacity: 70%;
 }
 /* header nav section */
 
 
+/* header main -section-*/
+#header-main-sec {
+   width: 100%;
+   height: 85%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#header-container {
+   width: 80%;
+   max-width: 560px;
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+   padding: 30px 30px;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+
+#random-quote {
+   font-size: 16px;
+   color: rgb(224, 224, 92);
+   text-align: center;
+}
+
+#main-heading {
+   color: #eee;
+   font-weight: 400;
+   text-align: center;
+   font-family: Franklin, sans-serif;
+}
+
+#show-more-btn {
+   display: block;
+   width: 50%;
+   max-width: 150px;
+   height: 40px;
+   padding: 10px 10px;
+   border: none;
+   border-radius: 5px;
+   box-shadow: 6px 5px 13px 2px #302f2f;
+   background-color: rgb(224, 224, 92);
+   color: #252525;
+   font-size: 14px;
+   font-weight: 300;
+   font-family: Impact;
+   outline: none;
+}
+/* header main -section-*/
 /* header section */
