@@ -212,4 +212,41 @@ body {
 }
 /* about section */
 
+/* third section */
+#third-section {
+   width: 100%;
+   background-color: #201f1ff7;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 2em 5em;
+}
+
+#third-section div {
+   flex: 2;
+}
+
+#explore-btn {
+   display: block;
+   width: 50%;
+   max-width: 150px;
+   height: 40px;
+   padding: 10px 10px;
+   border: none;
+   border-radius: 5px;
+   box-shadow: 6px 5px 13px 2px #302f2f;
+   background-color: rgb(224, 224, 92);
+   color: #252525;
+   font-size: 14px;
+   font-weight: 300;
+   font-family: Impact;
+   outline: none;
+}
+
+
+
+
+/* third section */
+
+
 
