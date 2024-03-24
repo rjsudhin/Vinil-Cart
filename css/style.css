@@ -9,6 +9,55 @@ body {
    font-size: 25px;
 }
 
+#page {
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+/* header section */
+.header {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 10px;
+   border: 1px solid #eee;
+}
+
+.title {
+   font-size: 22px;
+   color: #eee;
+   text-transform: uppercase;
+   flex: 2;
+}
+
+/* navbar */
+#nav-bar {
+   display: flex;
+   justify-content: space-between;
+   flex: 1;
+}
+
+#nav-bar li {
+   display: inline;
+   margin-right: 20px;
+}
+
+#nav-bar li:last-of-type {
+   margin-right: 0;
+}
+
+li a {
+   color: #eee;
+   font-size: 18px;
+   text-decoration: none;
+}
+/* navbar */
+/* header section */
+
+
+
 /* mobile device */
 @media only screen and (max-width: 500px) {
    body {
