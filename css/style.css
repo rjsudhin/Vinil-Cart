@@ -62,7 +62,17 @@ li a {
 
 /* main section */
 .main {
+   height: 450px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: rgb(11, 240, 106);
+}
 
+.main p {
+   font-size: 18px;
+   color: rgba(11, 240, 106, 0.432);
 }
 
 
@@ -72,6 +82,11 @@ li a {
    body {
       background-color: blueviolet;
    }
+
+   #page {
+      padding: 0 15px;
+   }
+
 }
 
 /* Tab device */
