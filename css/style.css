@@ -27,6 +27,7 @@ body {
    display: flex;
    justify-content: space-between;
    padding: 20px 10px;
+   flex-wrap: wrap;
 }
 
 .title {
@@ -60,6 +61,7 @@ li a {
 /* navbar */
 /* header section */
 
+
 /* main section */
 .main {
    height: 450px;
@@ -68,7 +70,12 @@ li a {
    justify-content: center;
    align-items: center;
    color: rgb(11, 240, 106);
+   text-align: center;
 }
+
+
+/* main section */
+
 
 .main p {
    font-size: 18px;
@@ -94,6 +101,7 @@ li a {
    body {
       background-color: aqua;
    }
+
 }
 
 /* Desktop Device */
