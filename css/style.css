@@ -17,9 +17,13 @@ body {
    background-color: #252525;
 }
 
+.section {
+   width: 100%;
+   font-size: 20px;
+}
+
 /* header section */
 .header {
-   width: 100%;
    display: flex;
    justify-content: space-between;
    padding: 20px 10px;
@@ -55,6 +59,11 @@ li a {
 }
 /* navbar */
 /* header section */
+
+/* main section */
+.main {
+
+}
 
 
 
